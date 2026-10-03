@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119 44" width="119" height="44" role="img" aria-label="Portfolio">
+  <style>
+    .bg { fill: #0b1020; } .panel { fill: #121a33; } .edge { stroke: #232f55; }
+    .fg { fill: #e8ecf8; } .muted { fill: #a3aecb; } .dim { fill: #7482a8; }
+    .violet { fill: #8b6cff; } .cyan { fill: #22d3ee; } .pink { fill: #f472b6; }
+    .stop-violet { stop-color: #8b6cff; } .stop-cyan { stop-color: #22d3ee; } .stop-pink { stop-color: #f472b6; }
+    .stop-fg { stop-color: #e8ecf8; }
+    @media (prefers-color-scheme: light) {
+    .bg { fill: #ffffff; } .panel { fill: #f5f7fc; } .edge { stroke: #d5dceb; }
+    .fg { fill: #0f172a; } .muted { fill: #475569; } .dim { fill: #64748b; }
+    .violet { fill: #5b3df5; } .cyan { fill: #0891b2; } .pink { fill: #db2777; }
+    .stop-violet { stop-color: #5b3df5; } .stop-cyan { stop-color: #0891b2; } .stop-pink { stop-color: #db2777; }
+    .stop-fg { stop-color: #0f172a; }
+    }
+    text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    
+  </style>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" class="stop-violet"/><stop offset="0.55" class="stop-cyan"/><stop offset="1" class="stop-pink"/>
+    </linearGradient></defs>
+  <rect class="panel" x="1" y="1" width="117" height="42" rx="21" stroke="url(#accent)" stroke-width="1.5"/>
+  
+  <text class="fg" x="20" y="27" font-size="15" font-weight="600">Portfolio</text>
+</svg>
