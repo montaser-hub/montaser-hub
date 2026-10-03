@@ -13,7 +13,7 @@
 
 <p>
   <img src="assets/now.svg" alt="What I do now: Frontend Developer at Arkaan International Group Co." width="49.5%">
-  <img src="assets/radar.svg" alt="Projects per area: Frontend 11, Backend & APIs 8, Databases 9, Real-time & queues 2, Testing 3, Containers & tooling 3" width="49.5%">
+  <img src="assets/radar.svg" alt="Projects per area: Frontend 12, Backend & APIs 8, Databases 9, Real-time & queues 2, Testing 7, Containers & tooling 6" width="49.5%">
 </p>
 
 <a href="https://montaser-hub.github.io"><img src="assets/portfolio.svg" alt="Portfolio: 4 case studies, 8 projects and 5 live demos at https://montaser-hub.github.io" width="100%"></a>
