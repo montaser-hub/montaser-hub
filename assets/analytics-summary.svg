@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Montaser Ismail on GitHub: 2,359 contributions in the last year, 19 public repositories, joined 6 years ago">
+  <style>
+    .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
+    .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
+    .accent { fill: #4c8dff; } .accent-line { stroke: #4c8dff; } .dim-line { stroke: #7d8590; }
+    .stop-accent { stop-color: #4c8dff; } .stop-fg { stop-color: #e6edf3; }
+    @media (prefers-color-scheme: light) {
+    .bg { fill: #ffffff; } .panel { fill: #f6f8fa; } .edge { stroke: #d0d7de; }
+    .fg { fill: #1f2328; } .muted { fill: #59636e; } .dim { fill: #6e7781; }
+    .accent { fill: #0969da; } .accent-line { stroke: #0969da; } .dim-line { stroke: #6e7781; }
+    .stop-accent { stop-color: #0969da; } .stop-fg { stop-color: #1f2328; }
+    }
+    text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    
+    .row { animation: row-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+    @keyframes row-in { from { opacity: 0; transform: translateX(-8px); } }
+    .line { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s cubic-bezier(0.22, 1, 0.36, 1) 0.2s forwards; }
+    .area { animation: fade 1.2s ease-out 0.9s backwards; }
+    .peak { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out 2s infinite; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes fade { from { opacity: 0; } }
+    @keyframes pulse { 0% { transform: scale(1); opacity: 0.8; } 70%, 100% { transform: scale(3); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .line { animation: none; stroke-dashoffset: 0; } .area, .peak { animation: none; } }
+    @media (prefers-reduced-motion: reduce) { .row { animation: none; } }
+  </style>
+  <rect class="panel edge" x="0.5" y="0.5" width="1199" height="299" rx="16" stroke-width="1"/>
+  
+  <text class="fg" x="28" y="38" font-size="18" font-weight="700">montaser-hub (Montaser Ismail)</text>
+  <text class="dim" x="28" y="58" font-size="12.5">GitHub at a glance</text>
+  
+  <text class="fg" x="1172" y="40" text-anchor="end" font-size="22" font-weight="700">2,359</text>
+  <text class="dim" x="1172" y="58" text-anchor="end" font-size="12.5">contributions in the last year</text>
+  
+  <g class="row" style="animation-delay: 0.15s">
+    <path class="accent-line" transform="translate(28 115)" d="M3.5 2.5h9v11h-9zM6 2.5v11M8.5 5.5h2" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="56" y="128" font-size="14.5"><tspan class="fg" font-weight="700">19</tspan><tspan class="muted" dx="7">public repositories</tspan></text>
+  </g>
+  
+  <g class="row" style="animation-delay: 0.23s">
+    <path class="accent-line" transform="translate(28 159)" d="M2.5 4h11v9.5h-11zM2.5 7h11M5.5 2.5v3M10.5 2.5v3" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="56" y="172" font-size="14.5"><tspan class="fg" font-weight="700">6 years ago</tspan><tspan class="muted" dx="7">joined GitHub</tspan></text>
+  </g>
+  
+  <g class="row" style="animation-delay: 0.31s">
+    <path class="accent-line" transform="translate(28 203)" d="M1.5 8h3l2-5 3 10 2-5h3" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="56" y="216" font-size="14.5"><tspan class="fg" font-weight="700">November 2025</tspan><tspan class="muted" dx="7">was the busiest month</tspan></text>
+  </g>
+  <defs><linearGradient id="under" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="stop-accent" stop-opacity="0.35"/><stop offset="1" class="stop-accent" stop-opacity="0"/></linearGradient></defs>
+  <line class="edge" x1="470" y1="256" x2="1166" y2="256"/>
+  <path class="area" d="M470.0 92.0 C480.5 114.5 512.2 203.1 533.3 227.1 C554.4 251.0 575.5 241.2 596.5 235.8 C617.6 230.4 638.7 192.8 659.8 194.6 C680.9 196.4 702.0 242.6 723.1 246.5 C744.2 250.4 765.3 242.2 786.4 218.0 C807.5 193.7 828.5 111.9 849.6 101.1 C870.7 92.0 891.8 146.1 912.9 153.0 C934.0 159.9 955.1 132.9 976.2 142.7 C997.3 152.5 1018.4 201.5 1039.5 212.0 C1060.5 222.6 1081.6 203.6 1102.7 206.1 C1123.8 208.5 1155.5 223.3 1166.0 226.7 L1166.0 256 L470 256 Z" fill="url(#under)"/>
+  <path class="line accent-line" d="M470.0 92.0 C480.5 114.5 512.2 203.1 533.3 227.1 C554.4 251.0 575.5 241.2 596.5 235.8 C617.6 230.4 638.7 192.8 659.8 194.6 C680.9 196.4 702.0 242.6 723.1 246.5 C744.2 250.4 765.3 242.2 786.4 218.0 C807.5 193.7 828.5 111.9 849.6 101.1 C870.7 92.0 891.8 146.1 912.9 153.0 C934.0 159.9 955.1 132.9 976.2 142.7 C997.3 152.5 1018.4 201.5 1039.5 212.0 C1060.5 222.6 1081.6 203.6 1102.7 206.1 C1123.8 208.5 1155.5 223.3 1166.0 226.7" fill="none" stroke-width="2.5" stroke-linecap="round" pathLength="1"/>
+  <circle class="peak accent" cx="470.0" cy="92.0" r="5"/>
+  <circle class="accent" cx="470.0" cy="92.0" r="4.5"/>
+  <text class="dim" x="470.0" y="282" text-anchor="middle" font-size="11.5">Nov</text><text class="dim" x="596.5" y="282" text-anchor="middle" font-size="11.5">Jan</text><text class="dim" x="723.1" y="282" text-anchor="middle" font-size="11.5">Mar</text><text class="dim" x="849.6" y="282" text-anchor="middle" font-size="11.5">May</text><text class="dim" x="976.2" y="282" text-anchor="middle" font-size="11.5">Jul</text><text class="dim" x="1102.7" y="282" text-anchor="middle" font-size="11.5">Sep</text>
+</svg>

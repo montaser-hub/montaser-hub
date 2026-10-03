@@ -18,11 +18,18 @@
 
 <a href="https://montaser-hub.github.io"><img src="assets/portfolio.svg" alt="Portfolio: 4 case studies, 8 projects and 5 live demos at https://montaser-hub.github.io" width="100%"></a>
 
-### Activity
+### GitHub analytics
+
+<img src="assets/analytics-summary.svg" alt="2,359 contributions in the last year, 19 public repositories" width="100%">
 
 <p>
-  <img src="assets/analytics-months.svg" alt="Contributions per month over the last year" width="49.5%">
-  <img src="assets/analytics-weekdays.svg" alt="Contributions by day of the week" width="49.5%">
+  <img src="assets/analytics-languages-repos.svg" alt="Languages by repository: JavaScript 10, TypeScript 4, HTML 1, PLpgSQL 1" width="49.5%">
+  <img src="assets/analytics-hours.svg" alt="Commits per hour of the day, Africa/Cairo time" width="49.5%">
+</p>
+
+<p>
+  <img src="assets/analytics-totals.svg" alt="904 commits in the last year, 412 pull requests, 8 issues" width="49.5%">
+  <img src="assets/analytics-languages-commits.svg" alt="Languages by commit: JavaScript 436, TypeScript 58, PLpgSQL 6, HTML 2" width="49.5%">
 </p>
 
 <a href="mailto:montaserismail20@gmail.com"><img src="assets/footer.svg" alt="Let's build something: montaserismail20@gmail.com" width="100%"></a>

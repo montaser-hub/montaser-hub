@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 300" width="590" height="300" role="img" aria-label="Languages by commit: JavaScript 436, TypeScript 58, PLpgSQL 6, HTML 2">
+  <style>
+    .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
+    .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
+    .accent { fill: #4c8dff; } .accent-line { stroke: #4c8dff; } .dim-line { stroke: #7d8590; }
+    .stop-accent { stop-color: #4c8dff; } .stop-fg { stop-color: #e6edf3; }
+    @media (prefers-color-scheme: light) {
+    .bg { fill: #ffffff; } .panel { fill: #f6f8fa; } .edge { stroke: #d0d7de; }
+    .fg { fill: #1f2328; } .muted { fill: #59636e; } .dim { fill: #6e7781; }
+    .accent { fill: #0969da; } .accent-line { stroke: #0969da; } .dim-line { stroke: #6e7781; }
+    .stop-accent { stop-color: #0969da; } .stop-fg { stop-color: #1f2328; }
+    }
+    text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    
+    .row { animation: row-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+    @keyframes row-in { from { opacity: 0; transform: translateX(-8px); } }
+    .slice { animation: slice-in 0.8s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+    @keyframes slice-in { from { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .row, .slice { animation: none; } }
+  </style>
+  <rect class="panel edge" x="0.5" y="0.5" width="589" height="299" rx="16" stroke-width="1"/>
+  
+  <text class="fg" x="28" y="38" font-size="18" font-weight="700">Languages by commit</text>
+  <text class="dim" x="28" y="58" font-size="12.5">My commits, by each repository's main language</text>
+  <circle class="accent-line slice" cx="470" cy="176" r="68" fill="none" stroke-width="26" stroke-opacity="1" stroke-dasharray="369.08 58.17" stroke-dashoffset="0.00" transform="rotate(-90 470 176)" style="animation-delay: 0.20s"/>
+  <circle class="accent-line slice" cx="470" cy="176" r="68" fill="none" stroke-width="26" stroke-opacity="0.66" stroke-dasharray="47.36 379.89" stroke-dashoffset="-371.08" transform="rotate(-90 470 176)" style="animation-delay: 0.32s"/>
+  <circle class="accent-line slice" cx="470" cy="176" r="68" fill="none" stroke-width="26" stroke-opacity="0.42" stroke-dasharray="3.11 424.15" stroke-dashoffset="-420.45" transform="rotate(-90 470 176)" style="animation-delay: 0.44s"/>
+  <circle class="accent-line slice" cx="470" cy="176" r="68" fill="none" stroke-width="26" stroke-opacity="0.26" stroke-dasharray="0.50 426.76" stroke-dashoffset="-425.55" transform="rotate(-90 470 176)" style="animation-delay: 0.56s"/>
+  <text class="fg" x="470" y="178" text-anchor="middle" font-size="24" font-weight="700">502</text>
+  <text class="dim" x="470" y="196" text-anchor="middle" font-size="11.5">commits</text>
+  <g class="row" style="animation-delay: 0.20s">
+    <rect class="accent" x="28" y="101" width="12" height="12" rx="3" fill-opacity="1"/>
+    <text class="fg" x="52" y="112" font-size="14.5" font-weight="600">JavaScript</text>
+    <text class="dim" x="278" y="112" text-anchor="end" font-size="13">87% · 436</text>
+  </g>
+  <g class="row" style="animation-delay: 0.32s">
+    <rect class="accent" x="28" y="133" width="12" height="12" rx="3" fill-opacity="0.66"/>
+    <text class="fg" x="52" y="144" font-size="14.5" font-weight="600">TypeScript</text>
+    <text class="dim" x="278" y="144" text-anchor="end" font-size="13">12% · 58</text>
+  </g>
+  <g class="row" style="animation-delay: 0.44s">
+    <rect class="accent" x="28" y="165" width="12" height="12" rx="3" fill-opacity="0.42"/>
+    <text class="fg" x="52" y="176" font-size="14.5" font-weight="600">PLpgSQL</text>
+    <text class="dim" x="278" y="176" text-anchor="end" font-size="13">1% · 6</text>
+  </g>
+  <g class="row" style="animation-delay: 0.56s">
+    <rect class="accent" x="28" y="197" width="12" height="12" rx="3" fill-opacity="0.26"/>
+    <text class="fg" x="52" y="208" font-size="14.5" font-weight="600">HTML</text>
+    <text class="dim" x="278" y="208" text-anchor="end" font-size="13">0% · 2</text>
+  </g>
+</svg>
