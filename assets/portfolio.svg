@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-label="See the work in detail. 4 case studies, 8 projects, 5 live demos. montaser-hub.github.io">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190" role="img" aria-label="See the work in detail. 4 case studies, 8 projects, 5 live demos. montaser-hub.github.io">
   <style>
     .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
     .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
@@ -13,60 +13,22 @@
     text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
     
-    .box { fill: var(--box); }
-    svg { --box: rgba(76, 141, 255, 0.12); }
-    @media (prefers-color-scheme: light) { svg { --box: rgba(9, 105, 218, 0.09); } }
-    .carousel { animation: carousel 8.8s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+    .in { animation: in 0.7s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+    .rule { transform-box: fill-box; transform-origin: left; animation: rule 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.2s backwards; }
     .go { animation: go 1.8s ease-in-out infinite; }
-    @keyframes carousel {
-      0.00%, 19.50% { transform: translateY(-0px); }
-      25.00%, 44.50% { transform: translateY(-62px); }
-      50.00%, 69.50% { transform: translateY(-124px); }
-      75.00%, 94.50% { transform: translateY(-186px); }
-      100% { transform: translateY(-248px); }
-    }
-    @keyframes go { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(6px); } }
-    @media (prefers-reduced-motion: reduce) { .carousel, .go { animation: none; } }
+    @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes rule { from { transform: scaleX(0); } }
+    @keyframes go { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(8px); } }
+    @media (prefers-reduced-motion: reduce) { .in, .rule, .go { animation: none; } }
   </style>
-  <defs><clipPath id="view"><rect x="778" y="78" width="348" height="116" rx="10"/></clipPath></defs>
-  <rect class="panel edge" x="0.5" y="0.5" width="1199" height="249" rx="20" stroke-width="1"/>
+  <text class="mono accent in" x="4" y="34" font-size="14" letter-spacing="2.5">PORTFOLIO</text>
+  <text class="fg in" style="animation-delay: 0.08s" x="2" y="92" font-size="46" font-weight="800" letter-spacing="-1">See the work in detail</text>
+  <text class="muted in" style="animation-delay: 0.16s" x="4" y="130" font-size="18">4 case studies   ·   8 projects   ·   5 live demos</text>
 
-  <text class="mono accent" x="56" y="72" font-size="14" letter-spacing="2">PORTFOLIO</text>
-  <text class="fg" x="56" y="122" font-size="40" font-weight="800" letter-spacing="-0.8">See the work in detail</text>
-  <text class="muted" x="56" y="158" font-size="17">4 case studies  ·  8 projects  ·  5 live demos</text>
-  <text class="accent" x="56" y="204" font-size="19" font-weight="700">montaser-hub.github.io</text>
-  <path class="go accent-line" d="M303.2 198h22m-8-8 8 8-8 8" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <rect class="bg edge" x="760" y="34" width="384" height="182" rx="14" stroke-width="1"/>
-  <circle class="dim" cx="780" cy="52" r="4.5" opacity="0.6"/><circle class="dim" cx="796" cy="52" r="4.5" opacity="0.6"/><circle class="dim" cx="812" cy="52" r="4.5" opacity="0.6"/>
-  <rect class="panel" x="836" y="43" width="284" height="18" rx="9"/>
-  <text class="dim" x="850" y="56" font-size="11">montaser-hub.github.io</text>
-  <g clip-path="url(#view)">
-    <g class="carousel">
-      <rect class="box" x="778" y="78" width="348" height="52" rx="10"/>
-      <circle class="accent" cx="802" cy="104" r="5"/>
-      <text class="fg" x="820" y="101" font-size="15" font-weight="700">SmartShift</text>
-      <text class="dim" x="820" y="119" font-size="12">Full-stack engineer · API lead</text>
-      <rect class="box" x="778" y="140" width="348" height="52" rx="10"/>
-      <circle class="accent" cx="802" cy="166" r="5"/>
-      <text class="fg" x="820" y="163" font-size="15" font-weight="700">Tenders — Procurement Platform</text>
-      <text class="dim" x="820" y="181" font-size="12">Lead front-end developer · UI designer</text>
-      <rect class="box" x="778" y="202" width="348" height="52" rx="10"/>
-      <circle class="accent" cx="802" cy="228" r="5"/>
-      <text class="fg" x="820" y="225" font-size="15" font-weight="700">Trigo — Ride-Hailing Backend</text>
-      <text class="dim" x="820" y="243" font-size="12">Backend developer</text>
-      <rect class="box" x="778" y="264" width="348" height="52" rx="10"/>
-      <circle class="accent" cx="802" cy="290" r="5"/>
-      <text class="fg" x="820" y="287" font-size="15" font-weight="700">Qyser — Residency Scheduling API</text>
-      <text class="dim" x="820" y="305" font-size="12">Backend developer</text>
-      <rect class="box" x="778" y="326" width="348" height="52" rx="10"/>
-      <circle class="accent" cx="802" cy="352" r="5"/>
-      <text class="fg" x="820" y="349" font-size="15" font-weight="700">SmartShift</text>
-      <text class="dim" x="820" y="367" font-size="12">Full-stack engineer · API lead</text>
-      <rect class="box" x="778" y="388" width="348" height="52" rx="10"/>
-      <circle class="accent" cx="802" cy="414" r="5"/>
-      <text class="fg" x="820" y="411" font-size="15" font-weight="700">Tenders — Procurement Platform</text>
-      <text class="dim" x="820" y="429" font-size="12">Lead front-end developer · UI designer</text>
-    </g>
+  <g class="in" style="animation-delay: 0.24s">
+    <text class="accent" x="1140" y="92" text-anchor="end" font-size="24" font-weight="700">montaser-hub.github.io</text>
+    <rect class="accent rule" x="850" y="104" width="290" height="2" rx="1"/>
+    <path class="go accent-line" d="M1156 84h26m-9-9 9 9-9 9" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
+  <line class="edge" x1="0" y1="174" x2="1200" y2="174"/>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Montaser Ismail, Software Engineer · Egypt. I build software for how businesses actually run.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Montaser Ismail, Software Engineer · Egypt. I build software for how businesses actually run.">
   <style>
     .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
     .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
@@ -14,15 +14,8 @@
     .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
     
     .typed { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
-    .hoodie { fill: #3b6fd4; } .hood { fill: #2f5cb5; } .sleeve { stroke: #2f5cb5; } .hood-seam { stroke: #244a94; } .skin { fill: #e8b98f; } .chair { fill: #1b222c; }
-    @media (prefers-color-scheme: light) { .hoodie { fill: #2f6fe0; } .hood { fill: #2259c0; } .sleeve { stroke: #2259c0; } .hood-seam { stroke: #1b4aa3; } .chair { fill: #dfe5ee; } }
-    .glow { transform-box: fill-box; transform-origin: center; }
-    .glow-1 { animation: drift-1 16s ease-in-out infinite alternate; }
-    .glow-2 { animation: drift-2 20s ease-in-out infinite alternate; }
     .rise { animation: rise 0.8s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
     .beat { transform-box: fill-box; transform-origin: center; animation: beat 2.4s ease-out infinite; }
-    @keyframes drift-1 { to { transform: translate(140px, 60px) scale(1.15); } }
-    @keyframes drift-2 { to { transform: translate(-160px, -40px) scale(0.9); } }
     @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
     @keyframes beat { 0% { transform: scale(1); opacity: 0.7; } 70%, 100% { transform: scale(2.6); opacity: 0; } }
     
@@ -71,31 +64,38 @@
     .clip-3 { transform-box: fill-box; transform-origin: left; animation: reveal-3 20s infinite; }
     .caret-3 { animation: caret-3 20s infinite, show-3 20s infinite; }
     
-    .code { transform-box: fill-box; transform-origin: left; animation: type 9s cubic-bezier(0.22, 1, 0.36, 1) infinite backwards; }
-    .blink { animation: blink 1s steps(1) infinite; }
-    .screen-glow { animation: glow 4s ease-in-out infinite; }
-    .hand-l { animation: tap 0.42s ease-in-out infinite alternate; }
-    .hand-r { animation: tap 0.42s ease-in-out 0.21s infinite alternate; }
-    .nod { transform-box: fill-box; transform-origin: 50% 100%; animation: nod 5s ease-in-out infinite; }
-    .key { animation: key 0.84s steps(1) infinite; }
-    @keyframes type { 0% { transform: scaleX(0); } 6%, 82% { transform: scaleX(1); } 90%, 100% { transform: scaleX(0); } }
-    @keyframes blink { 50% { opacity: 0; } }
-    @keyframes glow { 0%, 100% { opacity: 0.08; } 50% { opacity: 0.16; } }
-    @keyframes tap { from { transform: translateY(0); } to { transform: translateY(2.5px); } }
-    @keyframes nod { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-1.6deg); } }
-    @keyframes key { 50% { opacity: 0.35; } }
+    .skin { fill: #e3b08a; } .skin-dark { stroke: #c08a63; } .hair { fill: #17181c; } .hair-line { stroke: #17181c; }
+    .shirt { fill: #3a4354; } .shirt-line { stroke: #3a4354; } .collar { fill: #2d3544; } .lid { fill: #1c2230; } .cup { fill: #c9d1d9; }
+    @media (prefers-color-scheme: light) { .shirt { fill: #2f3744; } .shirt-line { stroke: #2f3744; } .collar { fill: #222933; } .lid { fill: #2b3340; } .cup { fill: #8c959f; } }
+    .float-a { animation: float 6s ease-in-out infinite; }
+    .float-b { animation: float 7s ease-in-out -2s infinite; }
+    .type { transform-box: fill-box; transform-origin: left; animation: type 10s cubic-bezier(0.22, 1, 0.36, 1) infinite backwards; }
+    .build { stroke-dasharray: 1; animation: build 10s ease-in-out infinite backwards; }
+    .pupil { animation: glance 10s ease-in-out infinite; }
+    .lids { transform-box: fill-box; transform-origin: center; animation: blink 4.6s ease-in-out infinite; }
+    .head { transform-box: fill-box; transform-origin: 50% 100%; animation: tilt 10s ease-in-out infinite; }
+    .arm-l { transform-box: fill-box; transform-origin: 100% 0%; animation: tap 0.4s ease-in-out infinite alternate; }
+    .arm-r { transform-box: fill-box; transform-origin: 0% 0%; animation: tap-r 0.4s ease-in-out 0.2s infinite alternate; }
+    .logo { animation: logo 3s ease-in-out infinite; }
+    .steam { stroke-dasharray: 3 5; animation: steam 2.4s linear infinite; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes type { 0% { transform: scaleX(0); } 5%, 84% { transform: scaleX(1); } 92%, 100% { transform: scaleX(0); } }
+    @keyframes build { 0% { stroke-dashoffset: 1; } 10%, 84% { stroke-dashoffset: 0; } 92%, 100% { stroke-dashoffset: 1; } }
+    @keyframes glance { 0%, 8% { transform: translateX(0); } 14%, 44% { transform: translateX(-3px); } 52%, 86% { transform: translateX(3px); } 94%, 100% { transform: translateX(0); } }
+    @keyframes blink { 0%, 44%, 50%, 100% { transform: scaleY(1); } 47% { transform: scaleY(0.1); } }
+    @keyframes tilt { 0%, 8%, 94%, 100% { transform: rotate(0deg); } 14%, 44% { transform: rotate(-2deg); } 52%, 86% { transform: rotate(2deg); } }
+    @keyframes tap { from { transform: rotate(0deg); } to { transform: rotate(2.4deg); } }
+    @keyframes tap-r { from { transform: rotate(0deg); } to { transform: rotate(-2.4deg); } }
+    @keyframes logo { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+    @keyframes steam { to { stroke-dashoffset: -16; } }
     @media (prefers-reduced-motion: reduce) {
-      .glow, .rise, .beat, .caret, [class^="clip-"], .code, .blink, .screen-glow, .hand-l, .hand-r, .nod, .key { animation: none !important; }
+      .rise, .beat, .caret, [class^="clip-"], .float-a, .float-b, .type, .build, .pupil, .lids, .head, .arm-l, .arm-r, .logo, .steam { animation: none !important; }
+      .build { stroke-dashoffset: 0; }
       .caret { opacity: 0; }
       .typed:not(.typed-first) { display: none; }
     }
   </style>
   <defs>
-    <clipPath id="frame"><rect width="1200" height="380" rx="20"/></clipPath>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle class="dim" cx="2" cy="2" r="1.1"/></pattern>
-    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.6" stop-color="#fff" stop-opacity="0.5"/><stop offset="1" stop-color="#fff" stop-opacity="0.9"/></linearGradient>
-    <mask id="dots-mask"><rect width="1200" height="380" fill="url(#fade)"/></mask>
     <!-- The name's fill: text colour with a band of colour that sweeps across (a colour change, not movement). -->
     <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="-400" y1="0" x2="0" y2="0">
       <stop offset="0" class="stop-fg"/><stop offset="0.5" class="stop-accent"/><stop offset="1" class="stop-fg"/>
@@ -103,99 +103,89 @@
       <animate attributeName="x2" values="0;1600" dur="5s" repeatCount="indefinite"/>
     </linearGradient>
   </defs>
-  <g clip-path="url(#frame)">
-    <rect class="bg" width="1200" height="380"/>
-    <g filter="url(#blur)" opacity="0.22">
-      <circle class="glow glow-1 accent" cx="160" cy="60" r="150"/>
-      <circle class="glow glow-2 accent" cx="1040" cy="320" r="170"/>
-    </g>
-    <rect width="1200" height="380" fill="url(#dots)" mask="url(#dots-mask)" opacity="0.5"/>
-  </g>
-  <rect class="edge" x="0.5" y="0.5" width="1199" height="379" rx="20" fill="none"/>
-
   <g class="rise" style="animation-delay: 0.05s">
-    <rect class="panel edge" x="64" y="56" width="222" height="32" rx="16" stroke-width="1"/>
-    <circle class="beat" cx="84" cy="72" r="5" fill="#34d399"/>
-    <circle cx="84" cy="72" r="5" fill="#34d399"/>
-    <text class="muted" x="100" y="77" font-size="14" font-weight="500">Open to full-stack roles</text>
+    <circle class="beat" cx="10" cy="72" r="5" fill="#34d399"/>
+    <circle cx="10" cy="72" r="5" fill="#34d399"/>
+    <text class="muted" x="26" y="77" font-size="14" font-weight="500">Open to full-stack roles</text>
   </g>
-  <text class="rise" style="animation-delay: 0.15s" x="62" y="176" font-size="70" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Montaser Ismail</text>
-  <text class="rise muted" style="animation-delay: 0.25s" x="64" y="222" font-size="23" font-weight="500">Software Engineer · Egypt</text>
+  <text class="rise" style="animation-delay: 0.15s" x="2" y="176" font-size="70" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Montaser Ismail</text>
+  <text class="rise muted" style="animation-delay: 0.25s" x="4" y="222" font-size="23" font-weight="500">Software Engineer · Egypt</text>
   <g class="rise" style="animation-delay: 0.35s">
-    <text class="mono fg" x="64" y="300" font-size="21">I build</text>
-    <clipPath id="clip-0"><rect class="clip-0" x="164.8" y="279" width="516.6" height="31.5"/></clipPath>
-  <text class="mono accent typed typed-first" clip-path="url(#clip-0)" x="164.8" y="300" font-size="21" textLength="516.6" lengthAdjust="spacing">software for how businesses actually run.</text>
-  <rect class="caret caret-0 accent" x="166.8" y="282.15" width="2.5" height="23.1"/>
-  <clipPath id="clip-1"><rect class="clip-1" x="164.8" y="279" width="415.8" height="31.5"/></clipPath>
-  <text class="mono accent typed" clip-path="url(#clip-1)" x="164.8" y="300" font-size="21" textLength="415.8" lengthAdjust="spacing">metadata-driven React interfaces.</text>
-  <rect class="caret caret-1 accent" x="166.8" y="282.15" width="2.5" height="23.1"/>
-  <clipPath id="clip-2"><rect class="clip-2" x="164.8" y="279" width="428.4" height="31.5"/></clipPath>
-  <text class="mono accent typed" clip-path="url(#clip-2)" x="164.8" y="300" font-size="21" textLength="428.4" lengthAdjust="spacing">real-time Node.js and NestJS APIs.</text>
-  <rect class="caret caret-2 accent" x="166.8" y="282.15" width="2.5" height="23.1"/>
-  <clipPath id="clip-3"><rect class="clip-3" x="164.8" y="279" width="390.6" height="31.5"/></clipPath>
-  <text class="mono accent typed" clip-path="url(#clip-3)" x="164.8" y="300" font-size="21" textLength="390.6" lengthAdjust="spacing">systems backed by 1,200+ tests.</text>
-  <rect class="caret caret-3 accent" x="166.8" y="282.15" width="2.5" height="23.1"/>
+    <text class="mono fg" x="4" y="300" font-size="21">I build</text>
+    <clipPath id="clip-0"><rect class="clip-0" x="104.8" y="279" width="516.6" height="31.5"/></clipPath>
+  <text class="mono accent typed typed-first" clip-path="url(#clip-0)" x="104.8" y="300" font-size="21" textLength="516.6" lengthAdjust="spacing">software for how businesses actually run.</text>
+  <rect class="caret caret-0 accent" x="106.8" y="282.15" width="2.5" height="23.1"/>
+  <clipPath id="clip-1"><rect class="clip-1" x="104.8" y="279" width="415.8" height="31.5"/></clipPath>
+  <text class="mono accent typed" clip-path="url(#clip-1)" x="104.8" y="300" font-size="21" textLength="415.8" lengthAdjust="spacing">metadata-driven React interfaces.</text>
+  <rect class="caret caret-1 accent" x="106.8" y="282.15" width="2.5" height="23.1"/>
+  <clipPath id="clip-2"><rect class="clip-2" x="104.8" y="279" width="428.4" height="31.5"/></clipPath>
+  <text class="mono accent typed" clip-path="url(#clip-2)" x="104.8" y="300" font-size="21" textLength="428.4" lengthAdjust="spacing">real-time Node.js and NestJS APIs.</text>
+  <rect class="caret caret-2 accent" x="106.8" y="282.15" width="2.5" height="23.1"/>
+  <clipPath id="clip-3"><rect class="clip-3" x="104.8" y="279" width="390.6" height="31.5"/></clipPath>
+  <text class="mono accent typed" clip-path="url(#clip-3)" x="104.8" y="300" font-size="21" textLength="390.6" lengthAdjust="spacing">systems backed by 1,200+ tests.</text>
+  <rect class="caret caret-3 accent" x="106.8" y="282.15" width="2.5" height="23.1"/>
   </g>
   <g>
-    <!-- desk -->
-    <rect class="panel edge" x="776" y="258" width="388" height="10" rx="5" stroke-width="1"/>
-    <rect class="panel edge" x="804" y="268" width="8" height="72" stroke-width="1"/>
-    <rect class="panel edge" x="1128" y="268" width="8" height="72" stroke-width="1"/>
-
-    <g transform="rotate(-3 872 202)">
-    <rect class="screen-glow accent" x="770" y="66" width="204" height="150" rx="22" opacity="0.1"/>
-    <rect class="bg edge" x="784" y="80" width="176" height="122" rx="9" stroke-width="2.5"/>
-    <circle class="dim" cx="796" cy="90" r="2"/><circle class="dim" cx="804" cy="90" r="2"/><circle class="dim" cx="812" cy="90" r="2"/>
-    <rect class="accent code code-l-0" x="802" y="100" width="64.4" height="5" rx="2.5" style="animation-delay: 0.30s"/>
-    <rect class="muted code code-l-1" x="810" y="112" width="98.0" height="5" rx="2.5" style="animation-delay: 0.75s"/>
-    <rect class="dim code code-l-2" x="810" y="124" width="72.8" height="5" rx="2.5" style="animation-delay: 1.20s"/>
-    <rect class="muted code code-l-3" x="818" y="136" width="84.0" height="5" rx="2.5" style="animation-delay: 1.65s"/>
-    <rect class="accent code code-l-4" x="818" y="148" width="53.2" height="5" rx="2.5" style="animation-delay: 2.10s"/>
-    <rect class="dim code code-l-5" x="810" y="160" width="42.0" height="5" rx="2.5" style="animation-delay: 2.55s"/>
-    <rect class="muted code code-l-6" x="802" y="172" width="25.2" height="5" rx="2.5" style="animation-delay: 3.00s"/>
-    <rect class="accent blink" x="831.2" y="170" width="5" height="9" rx="1"/>
-    <rect class="panel edge" x="865" y="202" width="14" height="51" stroke-width="1"/>
-    <rect class="panel edge" x="840" y="251" width="64" height="7" rx="3.5" stroke-width="1"/>
-  </g>
-    <g transform="rotate(3 1068 202)">
-    <rect class="screen-glow accent" x="962" y="52" width="212" height="164" rx="22" opacity="0.1"/>
-    <rect class="bg edge" x="976" y="66" width="184" height="136" rx="9" stroke-width="2.5"/>
-    <circle class="dim" cx="988" cy="76" r="2"/><circle class="dim" cx="996" cy="76" r="2"/><circle class="dim" cx="1004" cy="76" r="2"/>
-    <rect class="muted code code-r-0" x="994" y="86" width="85.8" height="5" rx="2.5" style="animation-delay: 1.20s"/>
-    <rect class="accent code code-r-1" x="1002" y="98" width="59.2" height="5" rx="2.5" style="animation-delay: 1.65s"/>
-    <rect class="dim code code-r-2" x="1002" y="110" width="112.5" height="5" rx="2.5" style="animation-delay: 2.10s"/>
-    <rect class="muted code code-r-3" x="1010" y="122" width="71.0" height="5" rx="2.5" style="animation-delay: 2.55s"/>
-    <rect class="muted code code-r-4" x="1002" y="134" width="94.7" height="5" rx="2.5" style="animation-delay: 3.00s"/>
-    <rect class="accent code code-r-5" x="994" y="146" width="38.5" height="5" rx="2.5" style="animation-delay: 3.45s"/>
-    <rect class="dim code code-r-6" x="994" y="158" width="74.0" height="5" rx="2.5" style="animation-delay: 3.90s"/>
-    <rect class="muted code code-r-7" x="1002" y="170" width="50.3" height="5" rx="2.5" style="animation-delay: 4.35s"/>
-    <rect class="accent blink" x="1056.3" y="168" width="5" height="9" rx="1"/>
-    <rect class="panel edge" x="1061" y="202" width="14" height="51" stroke-width="1"/>
-    <rect class="panel edge" x="1036" y="251" width="64" height="7" rx="3.5" stroke-width="1"/>
-  </g>
-
-    <!-- keyboard -->
-    <rect class="panel edge" x="856" y="236" width="228" height="22" rx="5" stroke-width="1"/>
-    <rect class="accent key" x="862" y="241" width="8.4" height="3.2" rx="1" style="animation-delay: 0.00s"/><rect class="dim" x="872.9" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="883.8" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="894.7" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="905.6" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="916.5" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="927.4" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="accent key" x="938.3" y="241" width="8.4" height="3.2" rx="1" style="animation-delay: 0.63s"/><rect class="dim" x="949.2" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="960.1" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="971" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="981.9" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="992.8" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1003.7" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="accent key" x="1014.6" y="241" width="8.4" height="3.2" rx="1" style="animation-delay: 0.42s"/><rect class="dim" x="1025.5" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1036.4" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1047.3" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1058.2" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1069.1" y="241" width="8.4" height="3.2" rx="1" opacity="0.6"/>
-    <rect class="dim" x="862" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="872.9" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="883.8" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="accent key" x="894.7" y="246" width="8.4" height="3.2" rx="1" style="animation-delay: 0.63s"/><rect class="dim" x="905.6" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="916.5" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="927.4" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="938.3" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="949.2" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="960.1" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="accent key" x="971" y="246" width="8.4" height="3.2" rx="1" style="animation-delay: 0.42s"/><rect class="dim" x="981.9" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="992.8" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1003.7" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1014.6" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1025.5" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1036.4" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="accent key" x="1047.3" y="246" width="8.4" height="3.2" rx="1" style="animation-delay: 0.21s"/><rect class="dim" x="1058.2" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1069.1" y="246" width="8.4" height="3.2" rx="1" opacity="0.6"/>
-    <rect class="dim" x="862" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="872.9" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="883.8" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="894.7" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="905.6" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="916.5" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="accent key" x="927.4" y="251" width="8.4" height="3.2" rx="1" style="animation-delay: 0.42s"/><rect class="dim" x="938.3" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="949.2" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="960.1" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="971" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="981.9" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="992.8" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="accent key" x="1003.7" y="251" width="8.4" height="3.2" rx="1" style="animation-delay: 0.21s"/><rect class="dim" x="1014.6" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1025.5" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1036.4" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1047.3" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1058.2" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/><rect class="dim" x="1069.1" y="251" width="8.4" height="3.2" rx="1" opacity="0.6"/>
-
-    <!-- programmer, from behind: body, then each arm reaching out to the keyboard -->
-    <path class="hoodie" d="M898 344 C894 272 904 228 934 220 L1006 220 C1036 228 1046 272 1042 344 Z"/>
-    <g class="hand-l">
-      <path class="sleeve" d="M918 234 Q896 228 882 245" fill="none" stroke-width="19" stroke-linecap="round"/>
-      <ellipse class="skin" cx="878" cy="247" rx="9" ry="7"/>
+    <!-- floating panels: code on the left, a page being laid out on the right -->
+    <g class="float-a">
+      <rect class="panel edge" x="764" y="58" width="150" height="150" rx="10" stroke-width="1" opacity="0.94"/>
+      <rect class="accent type" x="778" y="74" width="41.5" height="4.5" rx="2.2" style="animation-delay: 0.3s"/>
+    <rect class="muted type" x="778" y="86.5" width="75.6" height="4.5" rx="2.2" style="animation-delay: 0.7s"/>
+    <rect class="muted type" x="778" y="99" width="58.6" height="4.5" rx="2.2" style="animation-delay: 1.1s"/>
+    <rect class="dim type" x="778" y="111.5" width="85.4" height="4.5" rx="2.2" style="animation-delay: 1.5s"/>
+    <rect class="accent type" x="778" y="124" width="48.8" height="4.5" rx="2.2" style="animation-delay: 1.9s"/>
+    <rect class="muted type" x="778" y="136.5" width="68.3" height="4.5" rx="2.2" style="animation-delay: 2.3s"/>
+    <rect class="dim type" x="778" y="149" width="34.2" height="4.5" rx="2.2" style="animation-delay: 2.7s"/>
+    <rect class="muted type" x="778" y="161.5" width="78.1" height="4.5" rx="2.2" style="animation-delay: 3.1s"/>
+    <rect class="accent type" x="778" y="174" width="53.7" height="4.5" rx="2.2" style="animation-delay: 3.5s"/>
+    <rect class="dim type" x="778" y="186.5" width="36.6" height="4.5" rx="2.2" style="animation-delay: 3.9s"/>
     </g>
-    <g class="hand-r">
-      <path class="sleeve" d="M1022 234 Q1044 228 1058 245" fill="none" stroke-width="19" stroke-linecap="round"/>
-      <ellipse class="skin" cx="1062" cy="247" rx="9" ry="7"/>
-    </g>
-    <g class="nod">
-      <path class="hood" d="M926 228 C916 176 938 142 970 140 C1002 142 1024 176 1014 228 C992 238 948 238 926 228 Z"/>
-      <path class="hood-seam" d="M970 142 C966 174 966 204 970 234" fill="none" stroke-width="1.5" stroke-linecap="round"/>
+    <g class="float-b">
+      <rect class="panel edge" x="1060" y="98" width="116" height="104" rx="10" stroke-width="1" opacity="0.94"/>
+      <rect class="accent-line build" x="1072" y="110" width="92" height="7" rx="3" fill="none" stroke-width="1.6" pathLength="1" style="animation-delay: 1.0s"/>
+    <rect class="accent-line build" x="1072" y="126" width="92" height="28" rx="3" fill="none" stroke-width="1.6" pathLength="1" style="animation-delay: 1.9s"/>
+    <rect class="accent-line build" x="1072" y="162" width="28" height="28" rx="3" fill="none" stroke-width="1.6" pathLength="1" style="animation-delay: 2.8s"/>
+    <rect class="accent-line build" x="1108" y="162" width="56" height="16" rx="3" fill="none" stroke-width="1.6" pathLength="1" style="animation-delay: 3.7s"/>
     </g>
 
-    <!-- chair back -->
-    <rect class="chair edge" x="916" y="288" width="108" height="74" rx="18" stroke-width="1"/>
+    <!-- arms, elbows out, reaching to the keyboard behind the laptop -->
+    <path class="shirt shirt-line arm-l" d="M914 238 L870 274 L912 294" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="shirt shirt-line arm-r" d="M1034 238 L1078 274 L1036 294" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- torso and collar -->
+    <path class="shirt" d="M898 300 C894 242 920 212 952 206 L996 206 C1028 212 1054 242 1050 300 Z"/>
+    <rect class="skin" x="961" y="182" width="26" height="30" rx="8"/>
+    <path class="collar" d="M950 204 L961 200 L974 218 L987 200 L998 204 L982 230 L974 222 L966 230 Z"/>
+
+    <!-- head -->
+    <g class="head">
+      <ellipse class="skin" cx="935" cy="152" rx="6" ry="10"/>
+      <ellipse class="skin" cx="1013" cy="152" rx="6" ry="10"/>
+      <rect class="skin" x="937" y="104" width="74" height="90" rx="35"/>
+      <!-- beard and moustache -->
+      <path class="hair" d="M937 148 C935 178 944 196 974 198 C1004 196 1013 178 1011 148 C1006 160 998 164 989 163 C982 158 966 158 959 163 C950 164 942 160 937 148 Z"/>
+      <path class="skin-dark" d="M967 173 Q974 177 981 173" fill="none" stroke-width="2.2" stroke-linecap="round"/>
+      <!-- hair -->
+      <path class="hair" d="M935 142 C930 106 950 90 976 90 C1002 90 1019 108 1013 142 C1010 126 1000 118 978 120 C956 118 940 126 935 142 Z"/>
+      <!-- brows, eyes, nose -->
+      <path class="hair-line" d="M948 137 L965 135" stroke-width="3.6" stroke-linecap="round"/>
+      <path class="hair-line" d="M983 135 L1000 137" stroke-width="3.6" stroke-linecap="round"/>
+      <g class="lids">
+        <ellipse cx="957" cy="146" rx="7" ry="5.5" fill="#fff"/>
+        <ellipse cx="991" cy="146" rx="7" ry="5.5" fill="#fff"/>
+        <g class="pupil">
+          <circle class="hair" cx="957" cy="146" r="3"/>
+          <circle class="hair" cx="991" cy="146" r="3"/>
+        </g>
+      </g>
+      <path class="skin-dark" d="M974 146 L971 158 L977 159" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- laptop (its lid faces the viewer), desk, cup -->
+    <path class="lid edge" d="M908 300 L900 216 Q899 208 907 208 L1041 208 Q1049 208 1048 216 L1040 300 Z" stroke-width="1"/>
+    <circle class="accent logo" cx="974" cy="254" r="13"/>
+    <rect class="edge panel" x="774" y="300" width="392" height="9" rx="4.5" stroke-width="1"/>
+    <path class="cup" d="M1092 266 h26 l-3 34 h-20 z"/>
+    <path class="dim-line steam" d="M1100 260 q-4 -7 0 -13 q4 -6 0 -12 M1111 260 q-4 -7 0 -13 q4 -6 0 -12" fill="none" stroke-width="1.6" stroke-linecap="round"/>
   </g>
 </svg>
