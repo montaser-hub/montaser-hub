@@ -2,12 +2,12 @@
   <style>
     .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
     .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
-    .accent { fill: #4c8dff; } .accent-line { stroke: #4c8dff; }
+    .accent { fill: #4c8dff; } .accent-line { stroke: #4c8dff; } .dim-line { stroke: #7d8590; }
     .stop-accent { stop-color: #4c8dff; } .stop-fg { stop-color: #e6edf3; }
     @media (prefers-color-scheme: light) {
     .bg { fill: #ffffff; } .panel { fill: #f6f8fa; } .edge { stroke: #d0d7de; }
     .fg { fill: #1f2328; } .muted { fill: #59636e; } .dim { fill: #6e7781; }
-    .accent { fill: #0969da; } .accent-line { stroke: #0969da; }
+    .accent { fill: #0969da; } .accent-line { stroke: #0969da; } .dim-line { stroke: #6e7781; }
     .stop-accent { stop-color: #0969da; } .stop-fg { stop-color: #1f2328; }
     }
     text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }

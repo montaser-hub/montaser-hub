@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 300" width="590" height="300" role="img" aria-label="Contributions by weekday: Sun 343, Mon 325, Tue 415, Wed 349, Thu 308, Fri 275, Sat 334">
+  <style>
+    .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
+    .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
+    .accent { fill: #4c8dff; } .accent-line { stroke: #4c8dff; } .dim-line { stroke: #7d8590; }
+    .stop-accent { stop-color: #4c8dff; } .stop-fg { stop-color: #e6edf3; }
+    @media (prefers-color-scheme: light) {
+    .bg { fill: #ffffff; } .panel { fill: #f6f8fa; } .edge { stroke: #d0d7de; }
+    .fg { fill: #1f2328; } .muted { fill: #59636e; } .dim { fill: #6e7781; }
+    .accent { fill: #0969da; } .accent-line { stroke: #0969da; } .dim-line { stroke: #6e7781; }
+    .stop-accent { stop-color: #0969da; } .stop-fg { stop-color: #1f2328; }
+    }
+    text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    
+    .bar { transform-box: fill-box; transform-origin: bottom; animation: grow 0.9s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+    .soft { fill-opacity: 0.32; }
+    @keyframes grow { from { transform: scaleY(0); } }
+    @media (prefers-reduced-motion: reduce) { .bar { animation: none; } }
+  </style>
+  
+  <rect class="panel edge" x="0.5" y="0.5" width="589" height="299" rx="16" stroke-width="1"/>
+  <text class="fg" x="28" y="38" font-size="18" font-weight="700">When I code</text>
+  <text class="dim" x="28" y="58" font-size="12.5">Contributions by day of the week</text>
+  <text class="fg" x="562" y="40" text-anchor="end" font-size="22" font-weight="700">Tue</text>
+  <text class="dim" x="562" y="58" text-anchor="end" font-size="12.5">is my busiest day</text>
+  <line class="edge" x1="28" y1="256" x2="562" y2="256"/>
+  <g class="accent"><rect class="bar soft" x="44.8" y="120.5" width="42.7" height="135.5" rx="6" style="animation-delay: 0.20s"/>
+  <text class="dim" x="66.1" y="282" text-anchor="middle" font-size="12">Sun</text>
+  <rect class="bar soft" x="121.1" y="127.6" width="42.7" height="128.4" rx="6" style="animation-delay: 0.29s"/>
+  <text class="dim" x="142.4" y="282" text-anchor="middle" font-size="12">Mon</text>
+  <rect class="bar accent" x="197.4" y="92.0" width="42.7" height="164.0" rx="6" style="animation-delay: 0.38s"/>
+  <text class="fg" x="218.7" y="282" text-anchor="middle" font-size="12" font-weight="700">Tue</text>
+  <rect class="bar soft" x="273.6" y="118.1" width="42.7" height="137.9" rx="6" style="animation-delay: 0.47s"/>
+  <text class="dim" x="295.0" y="282" text-anchor="middle" font-size="12">Wed</text>
+  <rect class="bar soft" x="349.9" y="134.3" width="42.7" height="121.7" rx="6" style="animation-delay: 0.56s"/>
+  <text class="dim" x="371.3" y="282" text-anchor="middle" font-size="12">Thu</text>
+  <rect class="bar soft" x="426.2" y="147.3" width="42.7" height="108.7" rx="6" style="animation-delay: 0.65s"/>
+  <text class="dim" x="447.6" y="282" text-anchor="middle" font-size="12">Fri</text>
+  <rect class="bar soft" x="502.5" y="124.0" width="42.7" height="132.0" rx="6" style="animation-delay: 0.74s"/>
+  <text class="dim" x="523.9" y="282" text-anchor="middle" font-size="12">Sat</text></g>
+</svg>
