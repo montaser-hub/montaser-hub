@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 424" width="590" height="424" role="img" aria-label="What I do now: role: Frontend Developer; company: Arkaan International Group Co.; previously: Backend Developer, Qyser Tech.; focus: Full-stack delivery, Enterprise workflows, Tested by default; based: Egypt; status: Open to full-stack roles">
+  <style>
+    .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
+    .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
+    .accent { fill: #4c8dff; } .accent-line { stroke: #4c8dff; }
+    .stop-accent { stop-color: #4c8dff; } .stop-fg { stop-color: #e6edf3; }
+    @media (prefers-color-scheme: light) {
+    .bg { fill: #ffffff; } .panel { fill: #f6f8fa; } .edge { stroke: #d0d7de; }
+    .fg { fill: #1f2328; } .muted { fill: #59636e; } .dim { fill: #6e7781; }
+    .accent { fill: #0969da; } .accent-line { stroke: #0969da; }
+    .stop-accent { stop-color: #0969da; } .stop-fg { stop-color: #1f2328; }
+    }
+    text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .t-keyword { fill: #ff7b72; } .t-name { fill: #e6edf3; } .t-key { fill: #79c0ff; } .t-string { fill: #a5d6ff; }
+    @media (prefers-color-scheme: light) { .t-keyword { fill: #cf222e; } .t-name { fill: #1f2328; } .t-key { fill: #0550ae; } .t-string { fill: #0a3069; } }
+    
+    @keyframes line-0 {
+      0%, 2.50% { transform: scaleX(0); animation-timing-function: steps(18, end); }
+      5.31%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-0 { transform-box: fill-box; transform-origin: left; animation: line-0 16s infinite; }
+    @keyframes line-1 {
+      0%, 5.31% { transform: scaleX(0); animation-timing-function: steps(29, end); }
+      8.13%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-1 { transform-box: fill-box; transform-origin: left; animation: line-1 16s infinite; }
+    @keyframes line-2 {
+      0%, 8.13% { transform: scaleX(0); animation-timing-function: steps(44, end); }
+      10.94%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-2 { transform-box: fill-box; transform-origin: left; animation: line-2 16s infinite; }
+    @keyframes line-3 {
+      0%, 10.94% { transform: scaleX(0); animation-timing-function: steps(47, end); }
+      13.75%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-3 { transform-box: fill-box; transform-origin: left; animation: line-3 16s infinite; }
+    @keyframes line-4 {
+      0%, 13.75% { transform: scaleX(0); animation-timing-function: steps(10, end); }
+      16.56%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-4 { transform-box: fill-box; transform-origin: left; animation: line-4 16s infinite; }
+    @keyframes line-5 {
+      0%, 16.56% { transform: scaleX(0); animation-timing-function: steps(26, end); }
+      19.38%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-5 { transform-box: fill-box; transform-origin: left; animation: line-5 16s infinite; }
+    @keyframes line-6 {
+      0%, 19.38% { transform: scaleX(0); animation-timing-function: steps(27, end); }
+      22.19%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-6 { transform-box: fill-box; transform-origin: left; animation: line-6 16s infinite; }
+    @keyframes line-7 {
+      0%, 22.19% { transform: scaleX(0); animation-timing-function: steps(24, end); }
+      25.00%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-7 { transform-box: fill-box; transform-origin: left; animation: line-7 16s infinite; }
+    @keyframes line-8 {
+      0%, 25.00% { transform: scaleX(0); animation-timing-function: steps(4, end); }
+      27.81%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-8 { transform-box: fill-box; transform-origin: left; animation: line-8 16s infinite; }
+    @keyframes line-9 {
+      0%, 27.81% { transform: scaleX(0); animation-timing-function: steps(17, end); }
+      30.63%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-9 { transform-box: fill-box; transform-origin: left; animation: line-9 16s infinite; }
+    @keyframes line-10 {
+      0%, 30.63% { transform: scaleX(0); animation-timing-function: steps(37, end); }
+      33.44%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-10 { transform-box: fill-box; transform-origin: left; animation: line-10 16s infinite; }
+    @keyframes line-11 {
+      0%, 33.44% { transform: scaleX(0); animation-timing-function: steps(2, end); }
+      36.25%, 94% { transform: scaleX(1); }
+      98%, 100% { transform: scaleX(0); }
+    }
+    .line-11 { transform-box: fill-box; transform-origin: left; animation: line-11 16s infinite; }
+    @media (prefers-reduced-motion: reduce) { [class^="line-"] { animation: none; } }
+  </style>
+  <rect class="panel edge" x="0.5" y="0.5" width="589" height="423" rx="16" stroke-width="1"/>
+  <circle cx="26" cy="26" r="6" fill="#ff5f57"/><circle cx="46" cy="26" r="6" fill="#febc2e"/><circle cx="66" cy="26" r="6" fill="#28c840"/>
+  <text class="mono dim" x="295" y="31" text-anchor="middle" font-size="13">now.ts</text>
+  <line class="edge" x1="0" y1="50" x2="590" y2="50"/>
+  <g class="muted"><text class="mono dim" x="24" y="86" font-size="12"> 1</text>
+  <clipPath id="line-0"><rect class="line-0" x="58" y="71" width="162.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-0)" x="58" y="86" font-size="15" xml:space="preserve" textLength="162.0" lengthAdjust="spacing"><tspan class="t-keyword">const </tspan><tspan class="t-name">montaser</tspan><tspan class="t-plain"> = {</tspan></text>
+  <text class="mono dim" x="24" y="113" font-size="12"> 2</text>
+  <clipPath id="line-1"><rect class="line-1" x="58" y="98" width="261.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-1)" x="58" y="113" font-size="15" xml:space="preserve" textLength="261.0" lengthAdjust="spacing"><tspan class="t-key">  role</tspan><tspan class="t-plain">: </tspan><tspan class="t-string">&quot;Frontend Developer&quot;</tspan><tspan class="t-plain">,</tspan></text>
+  <text class="mono dim" x="24" y="140" font-size="12"> 3</text>
+  <clipPath id="line-2"><rect class="line-2" x="58" y="125" width="396.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-2)" x="58" y="140" font-size="15" xml:space="preserve" textLength="396.0" lengthAdjust="spacing"><tspan class="t-key">  company</tspan><tspan class="t-plain">: </tspan><tspan class="t-string">&quot;Arkaan International Group Co.&quot;</tspan><tspan class="t-plain">,</tspan></text>
+  <text class="mono dim" x="24" y="167" font-size="12"> 4</text>
+  <clipPath id="line-3"><rect class="line-3" x="58" y="152" width="423.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-3)" x="58" y="167" font-size="15" xml:space="preserve" textLength="423.0" lengthAdjust="spacing"><tspan class="t-key">  previously</tspan><tspan class="t-plain">: </tspan><tspan class="t-string">&quot;Backend Developer, Qyser Tech.&quot;</tspan><tspan class="t-plain">,</tspan></text>
+  <text class="mono dim" x="24" y="194" font-size="12"> 5</text>
+  <clipPath id="line-4"><rect class="line-4" x="58" y="179" width="90.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-4)" x="58" y="194" font-size="15" xml:space="preserve" textLength="90.0" lengthAdjust="spacing"><tspan class="t-key">  focus</tspan><tspan class="t-plain">: [</tspan></text>
+  <text class="mono dim" x="24" y="221" font-size="12"> 6</text>
+  <clipPath id="line-5"><rect class="line-5" x="58" y="206" width="234.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-5)" x="58" y="221" font-size="15" xml:space="preserve" textLength="234.0" lengthAdjust="spacing"><tspan class="t-string">    &quot;Full-stack delivery&quot;</tspan><tspan class="t-plain">,</tspan></text>
+  <text class="mono dim" x="24" y="248" font-size="12"> 7</text>
+  <clipPath id="line-6"><rect class="line-6" x="58" y="233" width="243.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-6)" x="58" y="248" font-size="15" xml:space="preserve" textLength="243.0" lengthAdjust="spacing"><tspan class="t-string">    &quot;Enterprise workflows&quot;</tspan><tspan class="t-plain">,</tspan></text>
+  <text class="mono dim" x="24" y="275" font-size="12"> 8</text>
+  <clipPath id="line-7"><rect class="line-7" x="58" y="260" width="216.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-7)" x="58" y="275" font-size="15" xml:space="preserve" textLength="216.0" lengthAdjust="spacing"><tspan class="t-string">    &quot;Tested by default&quot;</tspan><tspan class="t-plain">,</tspan></text>
+  <text class="mono dim" x="24" y="302" font-size="12"> 9</text>
+  <clipPath id="line-8"><rect class="line-8" x="58" y="287" width="36.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-8)" x="58" y="302" font-size="15" xml:space="preserve" textLength="36.0" lengthAdjust="spacing"><tspan class="t-plain">  ],</tspan></text>
+  <text class="mono dim" x="24" y="329" font-size="12">10</text>
+  <clipPath id="line-9"><rect class="line-9" x="58" y="314" width="153.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-9)" x="58" y="329" font-size="15" xml:space="preserve" textLength="153.0" lengthAdjust="spacing"><tspan class="t-key">  based</tspan><tspan class="t-plain">: </tspan><tspan class="t-string">&quot;Egypt&quot;</tspan><tspan class="t-plain">,</tspan></text>
+  <text class="mono dim" x="24" y="356" font-size="12">11</text>
+  <clipPath id="line-10"><rect class="line-10" x="58" y="341" width="333.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-10)" x="58" y="356" font-size="15" xml:space="preserve" textLength="333.0" lengthAdjust="spacing"><tspan class="t-key">  status</tspan><tspan class="t-plain">: </tspan><tspan class="t-string">&quot;Open to full-stack roles&quot;</tspan><tspan class="t-plain">,</tspan></text>
+  <text class="mono dim" x="24" y="383" font-size="12">12</text>
+  <clipPath id="line-11"><rect class="line-11" x="58" y="368" width="18.0" height="27"/></clipPath>
+  <text class="mono" clip-path="url(#line-11)" x="58" y="383" font-size="15" xml:space="preserve" textLength="18.0" lengthAdjust="spacing"><tspan class="t-plain">};</tspan></text></g>
+</svg>

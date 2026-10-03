@@ -9,6 +9,11 @@
 
 <img src="assets/metrics.svg" alt="1,205 automated tests written, 304 API endpoints shipped, 4 platforms built with teams, 2+ years in production code" width="100%">
 
+<p>
+  <img src="assets/now.svg" alt="What I do now: Frontend Developer at Arkaan International Group Co." width="49.5%">
+  <img src="assets/radar.svg" alt="Projects per area: Frontend 11, Backend & APIs 8, Databases 9, Real-time & queues 2, Testing 3, Containers & tooling 3" width="49.5%">
+</p>
+
 ### Featured work
 
 <p>
@@ -20,4 +25,8 @@
 
 ### Tech stack
 
-<img src="assets/stack.svg" alt="Frontend: React, Next.js, Angular, TypeScript, JavaScript, Redux Toolkit, Tailwind CSS, SASS, Vite. Backend: Node.js, NestJS, Express, GraphQL, Prisma, Socket.io. Data: MongoDB, PostgreSQL, MySQL, Redis. Test & ship: Jest, Vitest, Jasmine, Docker, Nx" width="100%">
+<img src="assets/stack.svg" alt="Tech stack: React, Next.js, Angular, TypeScript, JavaScript, Redux Toolkit, Tailwind CSS, SASS, Vite, Node.js, NestJS, Express, GraphQL, Prisma, Socket.io, MongoDB, PostgreSQL, MySQL, Redis, Jest, Vitest, Jasmine, Docker, Nx" width="100%">
+
+<img src="assets/languages.svg" alt="Languages: JavaScript 62%, TypeScript 17%, CSS 8%, HTML 5%, PLpgSQL 3%, Other 4%" width="100%">
+
+<a href="mailto:montaserismail20@gmail.com"><img src="assets/footer.svg" alt="Let's build something: montaserismail20@gmail.com" width="100%"></a>

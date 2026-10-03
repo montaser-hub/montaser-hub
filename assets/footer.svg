@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Let's build something. montaserismail20@gmail.com  ·  Egypt">
+  <style>
+    .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
+    .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
+    .accent { fill: #4c8dff; } .accent-line { stroke: #4c8dff; }
+    .stop-accent { stop-color: #4c8dff; } .stop-fg { stop-color: #e6edf3; }
+    @media (prefers-color-scheme: light) {
+    .bg { fill: #ffffff; } .panel { fill: #f6f8fa; } .edge { stroke: #d0d7de; }
+    .fg { fill: #1f2328; } .muted { fill: #59636e; } .dim { fill: #6e7781; }
+    .accent { fill: #0969da; } .accent-line { stroke: #0969da; }
+    .stop-accent { stop-color: #0969da; } .stop-fg { stop-color: #1f2328; }
+    }
+    text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    
+    .wave-1 { animation: slide-600 14s linear infinite; }
+    .wave-2 { animation: slide-400 9s linear infinite reverse; }
+    @keyframes slide-600 { to { transform: translateX(-600px); } }
+    @keyframes slide-400 { to { transform: translateX(-400px); } }
+    @media (prefers-reduced-motion: reduce) { .wave-1, .wave-2 { animation: none; } }
+  </style>
+  <defs><clipPath id="frame"><rect width="1200" height="200" rx="20"/></clipPath></defs>
+  <g clip-path="url(#frame)">
+    <rect class="panel" width="1200" height="200"/>
+    <path class="wave-1 accent" d="M0 150 Q150 128 300 150 T600 150 Q750 128 900 150 T1200 150 Q1350 128 1500 150 T1800 150 Q1950 128 2100 150 T2400 150 V200 H0 Z" opacity="0.14"/>
+    <path class="wave-2 accent" d="M0 166 Q100 150 200 166 T400 166 Q500 150 600 166 T800 166 Q900 150 1000 166 T1200 166 Q1300 150 1400 166 T1600 166 Q1700 150 1800 166 T2000 166 Q2100 150 2200 166 T2400 166 V200 H0 Z" opacity="0.22"/>
+  </g>
+  <rect class="edge" x="0.5" y="0.5" width="1199" height="199" rx="20" fill="none"/>
+  <text class="fg" x="600" y="78" text-anchor="middle" font-size="38" font-weight="800" letter-spacing="-0.5">Let's build something</text>
+  <text class="muted" x="600" y="112" text-anchor="middle" font-size="17">montaserismail20@gmail.com  ·  Egypt</text>
+</svg>

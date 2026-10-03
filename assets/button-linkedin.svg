@@ -1,26 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 44" width="132" height="44" role="img" aria-label="LinkedIn">
   <style>
-    .bg { fill: #0b1020; } .panel { fill: #121a33; } .edge { stroke: #232f55; }
-    .fg { fill: #e8ecf8; } .muted { fill: #a3aecb; } .dim { fill: #7482a8; }
-    .violet { fill: #8b6cff; } .cyan { fill: #22d3ee; } .pink { fill: #f472b6; }
-    .stop-violet { stop-color: #8b6cff; } .stop-cyan { stop-color: #22d3ee; } .stop-pink { stop-color: #f472b6; }
-    .stop-fg { stop-color: #e8ecf8; }
+    .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
+    .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
+    .accent { fill: #4c8dff; } .accent-line { stroke: #4c8dff; }
+    .stop-accent { stop-color: #4c8dff; } .stop-fg { stop-color: #e6edf3; }
     @media (prefers-color-scheme: light) {
-    .bg { fill: #ffffff; } .panel { fill: #f5f7fc; } .edge { stroke: #d5dceb; }
-    .fg { fill: #0f172a; } .muted { fill: #475569; } .dim { fill: #64748b; }
-    .violet { fill: #5b3df5; } .cyan { fill: #0891b2; } .pink { fill: #db2777; }
-    .stop-violet { stop-color: #5b3df5; } .stop-cyan { stop-color: #0891b2; } .stop-pink { stop-color: #db2777; }
-    .stop-fg { stop-color: #0f172a; }
+    .bg { fill: #ffffff; } .panel { fill: #f6f8fa; } .edge { stroke: #d0d7de; }
+    .fg { fill: #1f2328; } .muted { fill: #59636e; } .dim { fill: #6e7781; }
+    .accent { fill: #0969da; } .accent-line { stroke: #0969da; }
+    .stop-accent { stop-color: #0969da; } .stop-fg { stop-color: #1f2328; }
     }
     text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
     
   </style>
-  <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" class="stop-violet"/><stop offset="0.55" class="stop-cyan"/><stop offset="1" class="stop-pink"/>
-    </linearGradient></defs>
-  <rect class="panel" x="1" y="1" width="130" height="42" rx="21" stroke="url(#accent)" stroke-width="1.5"/>
+  <rect class="panel edge" x="1" y="1" width="130" height="42" rx="21" stroke-width="1.5"/>
   <path fill="#0A66C2" transform="translate(17.0 13.0) scale(0.750)" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
   <text class="fg" x="46" y="27" font-size="15" font-weight="600">LinkedIn</text>
 </svg>

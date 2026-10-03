@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 424" width="590" height="424" role="img" aria-label="Projects per area: Frontend 11 of 16, Backend &amp; APIs 8 of 16, Databases 9 of 16, Real-time &amp; queues 2 of 16, Testing 3 of 16, Containers &amp; tooling 3 of 16">
+  <style>
+    .bg { fill: #0d1117; } .panel { fill: #151b23; } .edge { stroke: #2a313c; }
+    .fg { fill: #e6edf3; } .muted { fill: #9da7b3; } .dim { fill: #7d8590; }
+    .accent { fill: #4c8dff; } .accent-line { stroke: #4c8dff; }
+    .stop-accent { stop-color: #4c8dff; } .stop-fg { stop-color: #e6edf3; }
+    @media (prefers-color-scheme: light) {
+    .bg { fill: #ffffff; } .panel { fill: #f6f8fa; } .edge { stroke: #d0d7de; }
+    .fg { fill: #1f2328; } .muted { fill: #59636e; } .dim { fill: #6e7781; }
+    .accent { fill: #0969da; } .accent-line { stroke: #0969da; }
+    .stop-accent { stop-color: #0969da; } .stop-fg { stop-color: #1f2328; }
+    }
+    text { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    
+    .shape { transform-origin: 295px 242px; animation: grow 1.4s cubic-bezier(0.22, 1, 0.36, 1) backwards, breathe 6s ease-in-out 1.4s infinite; }
+    @keyframes grow { from { transform: scale(0); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+    @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.04); } }
+    @media (prefers-reduced-motion: reduce) { .shape { animation: none; } }
+  </style>
+  <rect class="panel edge" x="0.5" y="0.5" width="589" height="423" rx="16" stroke-width="1"/>
+  <text class="fg" x="24" y="38" font-size="18" font-weight="700">Where my projects sit</text>
+  <text class="dim" x="24" y="58" font-size="12.5">Projects touching each area, out of 16</text>
+  <polygon class="edge" points="295.0,210.5 322.3,226.3 322.3,257.8 295.0,273.5 267.7,257.8 267.7,226.3" fill="none" stroke-width="1"/><polygon class="edge" points="295.0,179.0 349.6,210.5 349.6,273.5 295.0,305.0 240.4,273.5 240.4,210.5" fill="none" stroke-width="1"/><polygon class="edge" points="295.0,147.5 376.8,194.8 376.8,289.3 295.0,336.5 213.2,289.3 213.2,194.8" fill="none" stroke-width="1"/><polygon class="edge" points="295.0,116.0 404.1,179.0 404.1,305.0 295.0,368.0 185.9,305.0 185.9,179.0" fill="none" stroke-width="1"/><line class="edge" x1="295" y1="242" x2="295.0" y2="116.0"/><line class="edge" x1="295" y1="242" x2="404.1" y2="179.0"/><line class="edge" x1="295" y1="242" x2="404.1" y2="305.0"/><line class="edge" x1="295" y1="242" x2="295.0" y2="368.0"/><line class="edge" x1="295" y1="242" x2="185.9" y2="305.0"/><line class="edge" x1="295" y1="242" x2="185.9" y2="179.0"/>
+  <g class="shape">
+    <polygon points="295.0,116.0 374.4,196.2 384.3,293.5 295.0,264.9 265.2,259.2 265.2,224.8" class="accent accent-line" fill-opacity="0.2" stroke-width="2" stroke-linejoin="round"/>
+    <circle class="accent" cx="295.0" cy="116.0" r="4"/><circle class="accent" cx="374.4" cy="196.2" r="4"/><circle class="accent" cx="384.3" cy="293.5" r="4"/><circle class="accent" cx="295.0" cy="264.9" r="4"/><circle class="accent" cx="265.2" cy="259.2" r="4"/><circle class="accent" cx="265.2" cy="224.8" r="4"/>
+  </g>
+  <text class="fg" x="295.0" y="80.0" text-anchor="middle" font-size="13.5" font-weight="600">Frontend</text>
+  <text class="dim" x="295.0" y="97.0" text-anchor="middle" font-size="12">11 of 16</text>
+  <text class="fg" x="421.4" y="171.0" text-anchor="start" font-size="13.5" font-weight="600">Backend &amp; APIs</text>
+  <text class="dim" x="421.4" y="188.0" text-anchor="start" font-size="12">8 of 16</text>
+  <text class="fg" x="421.4" y="317.0" text-anchor="start" font-size="13.5" font-weight="600">Databases</text>
+  <text class="dim" x="421.4" y="334.0" text-anchor="start" font-size="12">9 of 16</text>
+  <text class="fg" x="295.0" y="390.0" text-anchor="middle" font-size="13.5" font-weight="600">Real-time &amp; queues</text>
+  <text class="dim" x="295.0" y="407.0" text-anchor="middle" font-size="12">2 of 16</text>
+  <text class="fg" x="168.6" y="317.0" text-anchor="end" font-size="13.5" font-weight="600">Testing</text>
+  <text class="dim" x="168.6" y="334.0" text-anchor="end" font-size="12">3 of 16</text>
+  <text class="fg" x="168.6" y="171.0" text-anchor="end" font-size="13.5" font-weight="600">Containers &amp; tooling</text>
+  <text class="dim" x="168.6" y="188.0" text-anchor="end" font-size="12">3 of 16</text>
+</svg>
