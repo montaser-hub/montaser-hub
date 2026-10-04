@@ -12,7 +12,7 @@
 <img src="assets/stack.svg" alt="Tech stack: React, Next.js, Angular, TypeScript, JavaScript, Redux Toolkit, Tailwind CSS, SASS, Vite, Node.js, NestJS, Express, GraphQL, Prisma, Socket.io, MongoDB, PostgreSQL, MySQL, Redis, Jest, Vitest, Jasmine, Docker, Nx" width="100%">
 
 <p>
-  <img src="assets/now.svg" alt="What I do now: Frontend Developer at Arkaan International Group Co." width="49.5%">
+  <img src="assets/now.svg" alt="What I do now: Full Stack Developer at Arkaan International Group Co." width="49.5%">
   <img src="assets/radar.svg" alt="Projects per area: Frontend 12, Backend & APIs 8, Databases 9, Real-time & queues 2, Testing 7, Containers & tooling 6" width="49.5%">
 </p>
 
@@ -20,7 +20,7 @@
 
 ### GitHub analytics
 
-<img src="assets/analytics-summary.svg" alt="2,359 contributions in the last year, 19 public repositories" width="100%">
+<img src="assets/analytics-summary.svg" alt="2,364 contributions in the last year, 19 public repositories" width="100%">
 
 <p>
   <img src="assets/analytics-languages-repos.svg" alt="Languages by repository: JavaScript 10, TypeScript 4, HTML 1, PLpgSQL 1" width="49.5%">
@@ -28,8 +28,8 @@
 </p>
 
 <p>
-  <img src="assets/analytics-totals.svg" alt="904 commits in the last year, 412 pull requests, 8 issues" width="49.5%">
-  <img src="assets/analytics-languages-commits.svg" alt="Languages by commit: JavaScript 436, TypeScript 58, PLpgSQL 6, HTML 2" width="49.5%">
+  <img src="assets/analytics-totals.svg" alt="909 commits in the last year, 412 pull requests, 8 issues" width="49.5%">
+  <img src="assets/analytics-languages-commits.svg" alt="Languages by commit: JavaScript 436, TypeScript 60, PLpgSQL 6, HTML 2" width="49.5%">
 </p>
 
 <a href="mailto:montaserismail20@gmail.com"><img src="assets/footer.svg" alt="Let's build something: montaserismail20@gmail.com" width="100%"></a>
